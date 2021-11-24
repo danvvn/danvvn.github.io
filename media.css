@@ -1,0 +1,273 @@
+@media all and (max-width: 1300px) {
+	.slider .slick-next {
+    	right: 10px;
+	}
+	.slider .slick-prev {
+		left: 10px;
+	}
+}
+@media all and (max-width: 1200px) {
+	.content {
+		width: 100%;
+		padding: 0 15px;
+		box-sizing: border-box;
+		-moz-box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+	}	
+	.unique-design:after {
+		width: 100%;
+    	background-repeat: no-repeat;
+   	    margin: auto;
+    	left: auto;
+    	display: block;
+    	background-position: 60% 0;
+	}
+	.our-stories .absolute {
+		top: 0;
+		left: 0;
+
+	}
+	.flex-image-block {
+		flex-wrap:wrap;
+		justify-content: center;
+	}
+	.about-img {
+		margin: 40px 20px;
+	}
+}
+@media all and (max-width: 1040px){
+	footer .content > .flex-block {
+		flex-wrap: wrap;
+	}
+	.mogo {
+		width: 100%;
+	}
+	.blogs {
+		width: 60%;
+		margin-top: 30px;
+	}
+	footer .instagram{
+		width: 35%;
+		margin-top: 30px;
+	}
+	.hipster img {
+		width: 16.6%;
+	}
+}
+@media all and (max-width: 800px) {
+	.welcome {
+		font-size: 60px;
+		width: 100%;
+	}
+	.num {
+		font-size: 45px;
+	}
+	.menu li a {
+		margin-left: 10px;
+		margin-right: 10px;
+		text-transform: capitalize;
+	}
+}	
+@media all and (max-width: 784px) {
+	.blogs {
+   	    width: 100%;
+	}
+	footer .instagram {
+   	    width: 50%;
+	}
+	.our-stories .flex-block {
+		flex-direction: column;
+	}
+	.stories-item {
+		width: 80%;
+		margin-bottom: 40px;
+	}
+	section { 
+		padding-top: 50px;
+   	    padding-bottom: 50px;
+	}
+	.client {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.client:last-child {
+		margin-bottom: 0;
+	}
+	.revie-item {
+		flex-direction: column;
+		padding: 0 50px;
+	}
+	.revie-text {
+		width: 100%;
+		margin-top: 40px;
+		font-size: 20px;
+		text-align: center;
+	}
+	.img-work {
+		width: 100%;
+	}
+	.our-work > .flex-block {
+		flex-wrap: wrap;
+	}
+	.hipster img {
+		width: 26%;
+	}
+	.hipster .flex-block {
+		flex-wrap:wrap;
+	} 
+	.what-do .flex-block {
+		flex-direction: column;
+	}
+	.what-do .flex-block > img {
+		display: none;
+	}
+	.akordion {
+		width: 100%;
+	}
+	.unique-design {
+		display: none;
+	}
+	.revie-image {
+		margin-right: 0;
+	}
+}
+@media all and (max-width: 650px) {
+	.number .flex-block {
+	 flex-direction: column;
+	}
+	.number-block {
+		width: 100%;
+		border-left:none;
+		border-bottom: 1px solid #fff;
+	}
+	.num {
+		padding-top: 15px;
+	}
+	.text-num {
+		padding-bottom: 15px;
+	}
+	.number-block:last-child {
+		border-right: none;
+	}
+	.amazing {
+		border:none;
+		flex-direction: column;
+		padding: 0;
+
+	}
+	.amazing-item {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.amazing:last-child {
+		padding: 0;
+	}
+	section {
+		padding-top: 30px;
+		padding-bottom : 30px;
+	}
+	.create {
+		font-size: 45px;
+		margin-top: 30px;
+	}
+	.welcome {
+		font-size: 45px;
+		line-height: 45px;
+	}
+	.navigation {
+		display: none;
+	}
+	.story {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	section .text {
+		margin-bottom: 20px;
+	}
+	.about-img-block {
+		font-size: 0;
+		height: auto;
+	}
+	.about-img {
+		height: auto;
+	}
+	.about-img-block img {
+		height: auto;
+		width: 100%;
+	}
+	h2 {
+		font-size: 25px;
+	}
+}
+@media all and (max-width: 500px) {
+	.menu {
+		display: none;
+	}
+	.gamburger {
+		display:block;
+		cursor: pointer;
+	}
+	.gamburger span {
+		display: inline-block;
+		width: 45px;
+		height: 3px;
+		background-color: #fff;
+		position: relative;
+		margin: 7px 0;
+	}
+	.gamburger span:before {
+		content: "";
+		display: inline-block;
+		width: 45px;
+		height: 3px;
+		background-color: #fff;
+		position: absolute;
+		left:0;
+		top: -7px;
+	}
+	.gamburger span:after {
+		content: "";
+		display: inline-block;
+		width: 45px;
+		height: 3px;
+		background-color: #fff;
+		position: absolute;
+		left: 0;
+		top: 7px;
+	}
+	.menu.active {
+		display: block;
+		position: absolute;
+		top: 50px;
+		right: 0;
+		margin: 0 -15px;
+
+	}
+	header {
+		position: relative;
+	}
+}
+@media all and (max-width: 400px) {
+	.kartinki span {
+		width: 30px;
+		height: 30px;
+	}
+	.kartinki .fa {
+		 font-size: 20px;
+	}
+	.avtor {
+		font-size: 20px;
+	}
+	.client img {
+		padding-right: 10px;
+		width: 80px;
+	}
+	footer .instagram {
+		width: 100%;
+	}
+	.menu li a {
+	    margin-left: 5px;
+	    margin-right: 5px;
+	    padding-bottom: 5px;
+	}
+}
